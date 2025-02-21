@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 52px;
+}
+
+.header__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: rgba(0, 159, 245, 0.71);
+    box-shadow: 0px 4px 4px 0px rgba(218, 211, 255, 1);
+    border: transparent;
+    border-radius: 5px;
+    width: 243px;
+    padding: 10px 0;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header__text {
+    text-shadow: 1px 5px 0px #FC0;
+}
+
+.header {
+    background-image: url(./image\ 1\ \(1\).png);
+    width: 100%;
+    
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.n1{
+    background-color: #FC0;
+    text-shadow: 0px 4px 4px 0px #0047FF;
+    margin: 100px 400px;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    border: 5px gray solid;
+
+}
+.n2{
+    background-color: #1F1F1F;
+    width: 362px;
+    text-align: center;
+    text-shadow: 0px 4px  4px  #FC0;
+}
+.n3{
+    background-color: #1F1F1F;
+    width: 362px;
+    text-align: center;
+    text-shadow: 0px 4px  4px  #FC0;
+    box-shadow: 0px 4px 4px 0px #fff;
+}
+.ota{
+    display: flex;
+    gap: 20px;
+}
+.n4{
+    color: #5A5555;
+    text-shadow: 0px 4px 4px white ;
+    text-align: center;
+    font-size: 50px;
+}
+section{
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+body{
+    background-color: black;
+}
+.n5{
+    color: #fff;
+}
+.nav__ota1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 25px;
+}
+.n6{
+    background-color: gray;
+    box-shadow: 0px 4px 4px 0px white;
+    width: 100px;
+    height: 34px;
+    border-radius: 1px;
+}
+.n6:hover{
+    background-color: white;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.nav__ota2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 25px;
+}
+.n8{
+    color: #fff;
+}
+.n9{
+    width: 278px;
+    height:61px;        
+    box-shadow: 4px 4px 4px white;
+    background-color: #FC0;
+}
+footer{
+    background-color: #FC0;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
